@@ -1,6 +1,8 @@
 #include "SDL.h"
+#include <iostream>
 
 int main(int argc, char* argv[]) {
+	std::cout << "HELLO\n";
 	SDL_Init(SDL_INIT_EVERYTHING);
 	SDL_Window* window = SDL_CreateWindow("title",
 		SDL_WINDOWPOS_CENTERED,
